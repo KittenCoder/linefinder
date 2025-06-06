@@ -36,6 +36,7 @@ function getLinesInFile($filename) {
 }
 
 function getDirectoryArgument() {
+    global $argv;
     // is set argument1 then use argument1 or else use '.'
     $directory = isset($argv[1]) ? $argv[1] : '.';
     return $directory;
