@@ -1,0 +1,16 @@
+{
+    "name": "kittencoder/linefinder",
+    "description": "Just a simple tool to find how many lines there are in files.",
+    "type": "project",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Soren Bogwald",
+            "email": "Soren.Bogwald@gmail.com"
+        }
+    ],
+    "bin": ["bin/linefinder"],
+    "require": {
+        "php": ">=7.4"
+    }
+}
